@@ -29,8 +29,8 @@ class Solution {
 
         for (int i = 0; i < biggestArr.length; i++) {
             while (
-                    lessArrIndex < lessArr.length &&
-                            biggestArr[i] > lessArr[lessArrIndex]
+                lessArrIndex < lessArr.length &&
+                biggestArr[i] > lessArr[lessArrIndex]
             ) {
                 result[resultNumberIndex++] = lessArr[lessArrIndex++];
             }
